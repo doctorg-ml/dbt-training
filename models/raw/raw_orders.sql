@@ -1,1 +1,4 @@
-{{ config(materialized="table") }} select * from {{ source("globalmart", "orders") }}
+{{ config(materialized="table") }} 
+
+select * 
+from {{ source("globalmart", "orders") }}
