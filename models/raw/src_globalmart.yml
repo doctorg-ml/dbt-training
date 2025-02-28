@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: globalmart
+    database: raw             # Database where the source tables are located
+    schema: globalmart        # Schema containing the source tables
+    tables:
+      - name: customer        # Source table for customer data
+      - name: orders          # Source table for order data
+      - name: product         # Source table for product data
